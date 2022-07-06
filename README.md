@@ -1,2 +1,2 @@
-# Wisflux-AcademySummer_Internship_2022
-Link for 1st Assignment https://zrbkgw.csb.app/#topic1
+# Wisflux_AcademySummer_Internship_2022
+# This is the repository for the assignments performed during the Internship
