@@ -1,5 +1,5 @@
-## Added media queries to make the technical documentation page responsive
-## Also added some css to it to make it look good.
+##Added media queries to make the technical documentation page responsive
+##Also added some css to it to make it look good.
 
 # This is  the page after using media query
 ## Here is the link for the page https://ni3qqr.csb.app/
