@@ -1,4 +1,4 @@
-function checkGrade(marks, examType) {
+function evaluate(marks, examType) {
   if (marks >= 90) {
     grade = "A+";
     if (examType === "final" && grade === "A+") {
@@ -9,5 +9,5 @@ function checkGrade(marks, examType) {
   }
 }
 
-console.log(checkGrade(92, "mtt"));
-console.log(checkGrade(95, "final"));
+console.log(evaluate(92, "mtt"));
+console.log(evaluate(95, "final"));
