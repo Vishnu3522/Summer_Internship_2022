@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        Enter Temprature in Celsius:
+        <input type="number" value="" id="temp"><br><br>
+
+        Enter Temprature in Fahrenheit:
+        <input type="number" value="" id="temp1"><br><br>
+
+ 
+        <input type="submit" value="Fahrenheit" onclick="cel()">
+        <input type="submit" value="Celsius" onclick="fahr()"><br><br>
+        
+        The Result in Fahrenheit: <br>
+        <span id="result"></span> 
+          <br>
+          <br>
+        The Result in celsius: : <br>
+        <span id="result1"></span>
+    </div>
+    <script>
+        function cel(num1){
+        num1 = document.getElementById("temp").value;
+        document.getElementById('result').innerHTML=(((num1 - 32)/9)*5);
+    }
+    function fahr(num1){
+        num1 = document.getElementById("temp1").value;
+        document.getElementById('result1').innerHTML=(((num1 * 9)/5)+32);
+    }
+    </script>
+</body>
+</html>
