@@ -41,7 +41,7 @@ Thus, a=b=5 but both points to separate locations in memory.
 This approach is called call by value where 2 variables become the same by copying the value but in 2 separate spots in the memory.
 we can implement it by
 <!-- <script type="text/javascript">
-    // By value (primitives)
+     By value (primitives)
     var a = 5;
     var b;
     b = a;
@@ -52,7 +52,7 @@ we can implement it by
 Call by reference: Let’s say, we have an object stored in the variable “a”. The variable stores the location or the address where the object lives. Now we set b=a. Now that new variable “b” instead of pointing to a new location in the memory, points to the same location where “a” does. No new object is created, no copy is created. Both the variables point to the same object. This is like having 2 names.
 
 This is call by reference.
-<!-- <script>
+ <script>
   
     // By reference (all objects (including functions))
     var c = { greeting : 'Welcome' };
@@ -63,7 +63,7 @@ This is call by reference.
     c.greeting = 'Welcome to geeksforgeeks';
     console.log(c);
     console.log(d);
-</script> -->
+</script> 
 
 ## What are theprimitive data typesin Javascript?
 Ans- Primitive Datatype in Javascript
