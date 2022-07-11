@@ -4,13 +4,13 @@ Ans-JavaScript is a scripting or programming language that allows you to impleme
 ## What is the difference between let and var?
 Ans-var and let are both used for variable declaration in javascript but the difference between them is that var is function scoped and let is block scoped. It can be said that a variable declared with var is defined throughout the program as compared to let.
 
-## Why do we preferconstovervar?
+## Why do we prefer const overvar?
 Ans-Const guarantees the reference is immutable and unique whereas in var you can duplicate your variable name, you can use it everywhere (even before declaration due to its lexical scope).
 
 ## What is the use of javascript inweb browsers?
 Ans- JavaScript is a light-weight object-oriented programming language that is used by several websites for scripting the webpages. It is an interpreted, full-fledged programming language. JavaScript enables dynamic interactivity on websites when it is applied to an HTML document.
 
-## What areObjects?
+## What are Objects?
 Ans-A JavaScript object is a collection of named values,JavaScript variables can also contain many values.
 
 Objects are variables too. But objects can contain many values.
@@ -26,10 +26,10 @@ Arrays are objects only in javascript. The major difference is that they store t
 
 They are also mutable and data can be modified at any index. Indexes are zero based which means the first item is stored at Oth index, second at first and so on, last item is stored at n-1th index.
 
-## What is afunction?
+## What is a function?
 Ans-A function is simply a “chunk” of code that you can use over and over again, rather than writing it out multiple times. Functions enable programmers to break down or decompose a problem into smaller chunks, each of which performs a particular task.
 
-##
+## How can we implementcall by value and call by referencein Javascript?
 Ans-Call by Value: Suppose there is a variable named “a”. Now, we store a primitive value(boolean, integer, float, etc) in the variable “a”.
 
 Let us store an integer value in “a”, Let a=5. Now the variable “a” stores 5 and has an address location where that primitive value sits in memory.
@@ -65,7 +65,7 @@ This is call by reference.
     console.log(d);
 </script> 
 
-## What are theprimitive data typesin Javascript?
+## What are the primitive data typesin Javascript?
 Ans- Primitive Datatype in Javascript
 are- 1.Number
 2. String
@@ -73,7 +73,7 @@ are- 1.Number
 4. Undefined
 5. Null
 6. object
-## What isDOM?
+## What is DOM?
 An-DOM stands for Document Object Model. In the world of web, all HTML webpages are referred to as documents. The Document Object Model represents each of these web pages in a tree-like structure to make it easier to access and manage the elements
-## Why do we needDOM?
+## Why do we need DOM?
 An- The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects; that way, programming languages can interact with the page
