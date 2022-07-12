@@ -61,6 +61,62 @@ the memory management process is automated. The browser takes care of that thing
 
 ## 6.Explain Shallow copy vs Deep copy in Javascript?
 Ans- A deep copy means that all of the values of the new variable are copied and disconnected from the original variable. A shallow copy means that certain (sub-)values are still connected to the original variable.
+```js
+var employee = {
+	eid: "E102",
+	ename: "Jack",
+	eaddress: "New York",
+	salary: 50000
+}
+
+
+console.log("Employee=> ", employee);
+var newEmployee = employee; // Shallow copy
+console.log("New Employee=> ", newEmployee);
+
+console.log("---------After modification----------");
+newEmployee.ename = "Beck";
+console.log("Employee=> ", employee);
+console.log("New Employee=> ", newEmployee);
+// Name of the employee as well as
+// newEmployee is changed.
+
+```
+### Deep copy example
+```js
+const lodash = require('lodash');
+var employee = {
+	eid: "E102",
+	ename: "Jack",
+	eaddress: "New York",
+	salary: 50000,
+	details: function () {
+		return "Employee Name: "
+			+ this.ename + "-->Salary: "
+			+ this.salary;
+	}
+}
+
+var deepCopy = lodash.cloneDeep(employee);
+console.log("Original Employee Object");
+console.log(employee);
+console.log("Deep Copied Employee Object");
+console.log(deepCopy);
+deepCopy.eid = "E103";
+deepCopy.ename = "Beck";
+deepCopy.details = function () {
+	return "Employee ID: " + this.eid
+		+ "-->Salary: " + this.salary;
+}
+console.log("----------After Modification----------");
+console.log("Original Employee Object");
+console.log(employee);
+console.log("Deep Copied Employee Object");
+console.log(deepCopy);
+console.log(employee.details());
+console.log(deepCopy.details());
+
+```
 
 ## 7. What is Object.freeze
 Ans-The Object.freeze() method freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed, prevents changing the enumerability, configurability, or writability of existing properties, and prevents the values of existing properties from being changed. In addition, freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in.
