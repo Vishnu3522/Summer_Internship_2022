@@ -1,9 +1,12 @@
 ## 1.What are anonymous functions in JavaScript?
 ans- Anonymous Function is a function that does not have any name associated with it. Normally we use the function keyword before the function name to define a function in JavaScript, however, in anonymous functions in JavaScript, we use only the function keyword without the function name.
  ## example- 
+ ```js
  function() {
     Function Body
  }
+ 
+ ```
 
 ## 2.Explain strict comparison and Abstract comparison in javascript?
 Ans- The Abstract Equality Operator checks whether two operands are equal and returns true if equal, false otherwise.
@@ -18,6 +21,8 @@ Ans- The Abstract Equality Operator checks whether two operands are equal and re
 ## 3.Difference b/w arrow functions and regular functions?
 Ans-Regular functions created using function declarations or expressions are ‘constructible’ and ‘callable’. Since regular functions are constructible, they can be called using the ‘new’ keyword. However, the arrow functions are only ‘callable’ and not constructible. Thus, we will get a run-time error on trying to construct a non-constructible arrow functions using the new keyword.
 example- Regular function
+
+```js
 let x = function(){
     console.log(arguments);
 };
@@ -30,14 +35,19 @@ let x = ()=> {
 };
 new x(1,2,3);
 
+```
+
 ## 4.What is Hoisting in JavaScript?
 Ans- In JavaScript, variable and function names can be used before declaring it. The JavaScript compiler moves all the declarations of variables and functions at the top so that there will not be any error. This is called hoisting.
    Example -
+```js
      x = 1;
 
 alert('x = ' + x); // display x = 1
 
 var x;
+
+```
  
  ## 5.JavaScript is a garbage collected programming language, explain how?
  Ans-When it comes to programming, Garbage Collection means cleaning the memory spaces which don’t contain useful data and then reallocating those cleared memory to some other data which is both active and useful. That is the basic process of Garbage Collection in pretty much all the programming languages in the world. Some programming languages needs explicit interference from the developer while some other languages do this automatically. A low level programming language like C, requires the developer to free the memory by the use of methods such as malloc() and free() when the program no longer needs those variables or objects.It is a developer prerogative to free the memory and the ball is in the developer’s court to decide explicitly whether to free the meory or not. But this is not always the case.For a high level programming language like JavaScript,
@@ -63,7 +73,7 @@ function genrateRand(min1= -100,max1=0,min2=800,max2=900){
 }
 genrateRand();
 
-
-// Outputs:-
 ```
+
+ ### Output:
  <img width="791" alt="Screenshot 2022-07-12 161308" src="https://user-images.githubusercontent.com/81406208/178472957-74d9ef27-0a61-48b5-8c3b-083b64d9689e.png">
