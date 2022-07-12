@@ -20,7 +20,8 @@ Ans- The Abstract Equality Operator checks whether two operands are equal and re
   ```js
   console.log(1 === "1")       
   //This will print false since both have different datatypes.
-       ```
+   
+   ```
        
 
 ## 3.Difference b/w arrow functions and regular functions?
