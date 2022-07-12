@@ -10,13 +10,17 @@ ans- Anonymous Function is a function that does not have any name associated wit
 
 ## 2.Explain strict comparison and Abstract comparison in javascript?
 Ans- The Abstract Equality Operator checks whether two operands are equal and returns true if equal, false otherwise.
-         example = 
+         example =
+       ```js
          console.log(1 == 1)
          //This will print true since both values are equal.
   The Strict Equality Operator checks whether two operands are equal and are of the same type.
   example= 
   console.log(1 === "1")       
   //This will print false since both have different datatypes.
+       
+       ```
+       
 
 ## 3.Difference b/w arrow functions and regular functions?
 Ans-Regular functions created using function declarations or expressions are ‘constructible’ and ‘callable’. Since regular functions are constructible, they can be called using the ‘new’ keyword. However, the arrow functions are only ‘callable’ and not constructible. Thus, we will get a run-time error on trying to construct a non-constructible arrow functions using the new keyword.
