@@ -14,11 +14,12 @@ Ans- The Abstract Equality Operator checks whether two operands are equal and re
        ```js
          console.log(1 == 1)
          //This will print true since both values are equal.
+         ```
   The Strict Equality Operator checks whether two operands are equal and are of the same type.
   example= 
+  ```js
   console.log(1 === "1")       
   //This will print false since both have different datatypes.
-       
        ```
        
 
