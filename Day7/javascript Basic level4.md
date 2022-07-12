@@ -65,6 +65,5 @@ genrateRand();
 
 
 // Outputs:-
- <img width="791" alt="Screenshot 2022-07-12 161308" src="https://user-images.githubusercontent.com/81406208/178472957-74d9ef27-0a61-48b5-8c3b-083b64d9689e.png">
-
 ```
+ <img width="791" alt="Screenshot 2022-07-12 161308" src="https://user-images.githubusercontent.com/81406208/178472957-74d9ef27-0a61-48b5-8c3b-083b64d9689e.png">
