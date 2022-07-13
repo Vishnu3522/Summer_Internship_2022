@@ -13,7 +13,7 @@ const img2 = document.querySelector("#scan2")
 const img3 = document.querySelector("#scan3")
 
 
-const executeAnimations = async ()=> {
+const start = async ()=> {
 
     let anim1 = img1.animate(animation, animationsConfig)
     let stop1= await anim1.finished
@@ -22,4 +22,4 @@ const executeAnimations = async ()=> {
     let anim3 = img3.animate(animation, animationsConfig)
     
 }
-executeAnimations();
+start();
