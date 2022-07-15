@@ -42,7 +42,7 @@ JSON is often used when data is sent from a server to a web page
 JSON is "self-describing" and easy to understand
 
 ## 8.Why we use JSON format for API?
-Ans-Why is JSON used in REST API?
+Ans-
 REST APIs should accept JSON for request payload and also send responses to JSON. JSON is the standard for transferring data. Almost every networked technology can use it: JavaScript has built-in methods to encode and decode JSON either through the Fetch API or another HTTP client.
 
 ## 9.What is a Framework?
