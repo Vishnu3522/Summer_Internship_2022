@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>HTML webpage using DOM.</p>
+
+<span onclick="myFunction()">click Me</span>
+
+<script>
+function myFunction() {
+  var x = document.createElement("VAR");
+  var t = document.createTextNode("Hello this is dom..");
+  x.appendChild(t);
+  document.body.appendChild(x);
+}
+</script>
+
+</body>
+</html>
